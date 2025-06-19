@@ -53,18 +53,3 @@ Built using the latest technologies including **Next.js 15**, **React 19**, **Ap
 
 ---
 
-## 🧑‍💻 Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/your-username/skybox.git
-cd skybox
-
-# Install dependencies
-npm install
-
-# Set up your environment variables for Appwrite (see .env.example)
-cp .env.example .env.local
-
-# Run the development server
-npm run dev
