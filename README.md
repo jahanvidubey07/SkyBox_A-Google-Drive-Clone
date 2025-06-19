@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌤️ SkyBox
 
-## Getting Started
+**SkyBox** is a powerful and modern **Google Drive clone** — a full-featured **storage management and file sharing platform** that enables users to effortlessly **upload, organize, view, download, and share files**.
 
-First, run the development server:
+Built using the latest technologies including **Next.js 15**, **React 19**, **Appwrite**, and **TailwindCSS**, SkyBox delivers a seamless experience across devices with a clean, responsive, and intuitive user interface.
+
+---
+
+## 🚀 Features
+
+- 🔐 **User Authentication with Appwrite**  
+  Secure sign-up, login, and logout functionality using Appwrite’s authentication APIs.
+
+- 📤 **File Uploads**  
+  Upload a wide range of file types — documents, images, videos, audio, and more — with ease.
+
+- 🗂️ **View & Manage Files**  
+  Browse uploaded files, open in a new tab, rename, or delete with intuitive file controls.
+
+- ⬇️ **Download Files**  
+  Download files directly from your dashboard, ensuring quick access to your important data.
+
+- 🔗 **File Sharing**  
+  Instantly share files with anyone using shareable links for seamless collaboration.
+
+- 📊 **Interactive Dashboard**  
+  A dynamic dashboard displays:
+  - Total and consumed storage
+  - Recent uploads
+  - File statistics grouped by type
+
+- 🔍 **Global Search**  
+  Find any file or shared item using a fast and comprehensive global search.
+
+- ↕️ **Sorting Options**  
+  Sort files by name, size, or upload date for efficient organization.
+
+- 📱 **Modern Responsive Design**  
+  Built with **TailwindCSS** and **ShadCN**, SkyBox adapts beautifully across desktops, tablets, and mobile devices.
+
+---
+
+## ⚙️ Tech Stack
+
+| Technology     | Purpose                             |
+|----------------|-------------------------------------|
+| **React 19**   | Frontend UI and component logic     |
+| **Next.js 15** | Full-stack framework with app router|
+| **Appwrite**   | Backend-as-a-Service (BaaS) for auth, storage, etc. |
+| **TailwindCSS**| Utility-first CSS framework         |
+| **ShadCN**     | UI Components built on Radix UI     |
+| **TypeScript** | Type safety and better DX           |
+
+---
+
+## 🧑‍💻 Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/your-username/skybox.git
+cd skybox
+
+# Install dependencies
+npm install
+
+# Set up your environment variables for Appwrite (see .env.example)
+cp .env.example .env.local
+
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
